@@ -40,7 +40,7 @@ ADD . /opt/sources
 WORKDIR /opt/sources
 
 RUN mkdir -p /opt/sources/build
-COPY --from=generator /tmp/peak_can.hpp /opt/sources/build
+#COPY --from=generator /tmp/peak_can.hpp /opt/sources/build
 
 RUN cd /opt/sources/build && \
     cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/tmp/opendlv-device-gps-peak-dest .. && \
