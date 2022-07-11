@@ -49,11 +49,11 @@ BO_ 1537 BMC_MagneticField: 6 Vector__XXX
  SG_ MagneticField_Z : 32|16@1- (0.3,0) [-9830.4|9830.1] "microT" Vector__XXX
 
 BO_ 1552 L3GD20_Rotation_A: 8 Vector__XXX
- SG_ Rotation_X : 0|32@1+ (1,0) [-4000|4000] "deg/s" Vector__XXX
- SG_ Rotation_Y : 32|32@1+ (1,0) [-4000|4000] "deg/s" Vector__XXX
+ SG_ Rotation_X : 0|32@1- (1,0) [-4000|4000] "deg/s" Vector__XXX
+ SG_ Rotation_Y : 32|32@1- (1,0) [-4000|4000] "deg/s" Vector__XXX
 
 BO_ 1553 L3GD20_Rotation_B: 4 Vector__XXX
- SG_ Rotation_Z : 0|32@1+ (1,0) [-4000|4000] "deg/s" Vector__XXX
+ SG_ Rotation_Z : 0|32@1- (1,0) [-4000|4000] "deg/s" Vector__XXX
 
 BO_ 1568 GPS_Status: 3 Vector__XXX
  SG_ GPS_AntennaStatus : 0|8@1+ (1,0) [0|255] "" Vector__XXX
